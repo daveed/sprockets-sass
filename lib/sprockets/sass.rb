@@ -21,7 +21,7 @@ module Sprockets
     end
     
     @options = {}
-    @add_sass_functions = true
+    @add_sass_functions = false
   end
   
   register_engine '.sass', Sass::SassTemplate
